@@ -45,10 +45,18 @@ docker run -d -p 33060:3306 --name mysql-db -e MYSQL_ROOT_PASSWORD=klingon --mou
 para entrar
 
 docker exec -it mysql-db mysql -p
-53:30 DESIGNING FORM
 
-1:10:25 POST A LINK
-Guardar datos en MYSLQ
+=====================
 
-1:17:36 QUERY FROM MYSQL
-Opteniendo datos desde MySQL
+1. Backend, Creando el servidor: 04:08
+2. Mysql, Conexión: 31:55
+3. Views (Template Engine): 53:28
+4. Guardar datos en Mysql: 01:10:26
+5. Obteniendo Datos desde Mysql: 01:17:35
+6. Eliminando Datos de Mysql: 01:33:47
+7. Actualizar Datos de Mysql: 01:40:58
+8. Mensajes de connect-flash y navegación: 01:53:27
+9. Registro de Usuarios en Mysql:  02:11:28
+10. Login de Usuarios en Mysql: 02:50:56
+11. Protegiendo Rutas del servidor: 03:12:12
+12. Datos Privados: 03:31:05
