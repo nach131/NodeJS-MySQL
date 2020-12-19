@@ -12,7 +12,7 @@ pool.getConnection((err, connection) => {
     if (err.code === 'ER_CON_COUNT_ERROR') {
       console.error('DEMASIADAS CONEXIONES A LA BD')
     }
-    if (err.code === 'ECONNREFUSE') {
+    if (err.code === 'ECONNREFUSED') {
       console.error('LA CONEXION FUE RECHAZADA')
     }
   }

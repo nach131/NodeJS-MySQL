@@ -7,9 +7,9 @@ router.get('/add', (req, res) => {
   res.render('links/add');
 });
 
-router.post('/add',async (req, res) => {
+router.post('/add', async (req, res) => {
   // console.log(req.body)
-  const {title, url, description} = req.body;
+  const { title, url, description } = req.body;
   const newLink = {
     title,
     url,
@@ -20,4 +20,4 @@ router.post('/add',async (req, res) => {
   res.send('Recibido')
 })
 
-module.exports = router
+module.exports = router;

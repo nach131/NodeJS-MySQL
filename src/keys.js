@@ -1,9 +1,9 @@
 module.exports = {
 
   database: {
-    host: 'espai.pimpam.local',
-    user: 'nacho',
-    password: 'klingon',
+    host: 'localhost',
+    user: 'root',
+    password: 'root',
     database: 'databa_links'
   }
 }

@@ -37,14 +37,29 @@ npm i nodemon -D
 31:51 Conexion Mysql
 
 crear docker mysql
+https://josejuansanchez.org/bd/practica-07/index.html
 
-https://platzi.com/tutoriales/1432-docker/3268-como-crear-un-contenedor-con-docker-mysql-y-persistir-la-informacion/
-
-docker run -d -p 33060:3306 --name mysql-db -e MYSQL_ROOT_PASSWORD=klingon --mount src=mysql-db-data,dst=/var/lib/mysql mysql
+docker run -d \
+--rm \
+--name mysqlc \
+-p 3306:3306 \
+-e MYSQL_ROOT_PASSWORD=root \
+-v mysql_data:/var/lib/mysql \
+mysql:5.7.28
 
 para entrar
 
-docker exec -it mysql-db mysql -p
+docker exec -it mysqlc mysql -p
+
+Con phpmyadmin
+
+docker run -d \
+--rm \
+--name phpmyadminc \
+--link mysqlc \
+-e PMA_HOST=mysqlc \
+-p 8080:80 \
+phpmyadmin/phpmyadmin
 
 =====================
 
