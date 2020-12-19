@@ -49,3 +49,6 @@ docker exec -it mysql-db mysql -p
 
 1:10:25 POST A LINK
 Guardar datos en MYSLQ
+
+1:17:36 QUERY FROM MYSQL
+Opteniendo datos desde MySQL
