@@ -68,8 +68,8 @@ phpmyadmin/phpmyadmin
 3. Views (Template Engine): 53:28
 4. Guardar datos en Mysql: 01:10:26
 5. Obteniendo Datos desde Mysql: 01:17:35
-
 6. Eliminando Datos de Mysql: 01:33:47
+
 7. Actualizar Datos de Mysql: 01:40:58
 8. Mensajes de connect-flash y navegación: 01:53:27
 9. Registro de Usuarios en Mysql: 02:11:28
