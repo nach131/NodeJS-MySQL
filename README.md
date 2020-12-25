@@ -71,8 +71,8 @@ phpmyadmin/phpmyadmin
 6. Eliminando Datos de Mysql: 01:33:47
 7. Actualizar Datos de Mysql: 01:40:58
 8. Mensajes de connect-flash y navegación: 01:53:27
-
 9. Registro de Usuarios en Mysql: 02:11:28
+
 10. Login de Usuarios en Mysql: 02:50:56
 11. Protegiendo Rutas del servidor: 03:12:12
 12. Datos Privados: 03:31:05
