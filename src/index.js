@@ -14,7 +14,7 @@ const { database } = require('./keys');
 // inicializaciones
 
 const app = express();
-require('./lib/password')
+require('./lib/passport')
 // settings
 app.set("port", process.env.PORT || 4000);
 app.set("views", path.join(__dirname, "views"));
@@ -48,6 +48,7 @@ app.use(passport.session())
 
 app.use((req, res, next) => {
   app.locals.success = req.flash('success')
+  app.locals.message = req.flash('message')
   next();
 });
 
